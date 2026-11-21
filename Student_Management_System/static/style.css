@@ -1,0 +1,215 @@
+/* login page */
+.login-page {
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f4eafa, #e6d6f5, #f8e8f0);
+}
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    width: 430px;
+    max-width: 95%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(90, 60, 120, 0.12);
+}
+
+.login-card-content {
+    padding: 40px 45px;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.login-title h2 {
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+.login-underline {
+    width: 60px;
+    height: 3px;
+    background-color: #a66be0;
+    margin: 12px auto;
+    border-radius: 5px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-label,
+.password-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #777;
+}
+
+.password-label {
+    margin-top: 22px;
+}
+
+.login-input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #d6d1dc !important;
+    padding: 10px 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.login-input:focus {
+    border-bottom: 2px solid #a66be0 !important;
+}
+
+.input-underline {
+    margin-bottom: 5px;
+}
+
+.forgot-password {
+    text-align: right;
+    font-size: 12px;
+    color: #9b61d1;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.login-button {
+    background: linear-gradient(90deg, #c9a1ee, #a96cdb) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 30px !important;
+    padding: 12px !important;
+    margin-top: 30px;
+    font-weight: 600;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-button:hover {
+    background: linear-gradient(90deg, #b78ae5, #9255c9) !important;
+}
+
+.signup-link {
+    text-align: center;
+    text-decoration: none;
+    color: #888;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+
+
+/* dashboard page */
+
+.dashboard-page {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f4eafa, #e6d6f5, #f8e8f0);
+}
+
+.dashboard-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* dashboard header */
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.dashboard-header p {
+    color: #777;
+    margin: 0;
+}
+
+/* logout button */
+
+.logout-button {
+    background: linear-gradient(90deg, #c9a1ee, #a96cdb);
+    color: white;
+    text-decoration: none;
+    padding: 11px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    color: white;
+    background: linear-gradient(90deg, #b78ae5, #9255c9);
+}
+
+/* student card */
+
+.student-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(90, 60, 120, 0.12);
+}
+
+.student-card h4 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* student table */
+
+.student-table {
+    vertical-align: middle;
+}
+
+.student-table thead th {
+    background-color: #a96cdb;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+
+.student-table tbody td {
+    padding: 15px;
+    color: #555;
+}
+
+.student-table tbody tr:hover {
+    background-color: #f8f0ff;
+}
+
+@media (max-width: 576px) {
+    .dashboard-header {
+        align-items: flex-start;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .student-card {
+        padding: 15px;
+    }
+}
